@@ -36,10 +36,10 @@ print_a_line(current_line, current_file)
 
 # increase the current line by 1
 # set the current line, print the line number and the current line
-current_line = current_line +1
+current_line += 1 
 print_a_line(current_line, current_file)
 
 # increase the current line by 1
 # set the current line, print the line number and the current line
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
