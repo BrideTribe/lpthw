@@ -1,0 +1,17 @@
+print(How old are you?, end=' ')
+age = input()
+print(How tall are you?, end=' ')
+print(How much do you weigh?, end=' '
+weight = input()
+
+print(fSo, youre {age} old, {height} tall and {weight} heavy.")
+
+script, filename = argv
+
+txt = open(filenme)
+
+print("Heres your file {filename}:)
+print(tx.read())
+
+print(Type the filename again:)
+file_again = input(
