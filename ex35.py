@@ -8,7 +8,9 @@ def gold_room():
     how_much = int(choice)
     if choice == 0 or choice == 1:
         dead("Man, learn to type a number.")
-
+    else:
+        dead("This does not have 'else'")
+        
     if how_much < 50:
         print("Nice, you're not greedy, you win!")
         exit(0)
